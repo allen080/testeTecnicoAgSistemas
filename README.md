@@ -9,10 +9,16 @@ Você deverá criar um app do Django com o nome core e os seguintes models:
 	Dados: title, content, created_at, tags (um post tem uma ou várias tags e uma tag pode ter um ou vários posts).
 - Tag
 	Dados: name
+<br/>
 Estes 2 models devem estar plugados no admin do Django.
 Crie uma página com o path /blog e liste todos os posts e tags da aplicação.
 Faça tudo com SQLite3 e acrescente no controle de versão com Git.
 Precisa já ter cadastrado um usuário no admin com as seguintes credenciais: admin para o username, admin para a senha
+
+### Instruções para execução:
+	- git clone -b master https://github.com/allen080/testeTecnicoAgSistemas (clonar a branch)
+	- cd testeTecnicoAgSistemas
+	- python3 manage.py runserver
 
 ## Exemplo de execução
 
