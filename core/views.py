@@ -2,8 +2,8 @@ from django.shortcuts import render, HttpResponse
 from .models import Post, Tag
 
 def home(request):
-    #return render(request, "core/base.html")
-    return HttpResponse("<h1>Desafio de codificação - AG Sistemas</h1>")
+    return render(request, "core/home.html")
+    #return HttpResponse("<h1>Desafio de codificação - AG Sistemas</h1>")
 
 def viewBlog(request):
     posts = Post.objects.all()
